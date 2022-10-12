@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.dateStyle{
+    border-radius: 10px;
+    background: white;
+    color: red;
+}
+
+.sebi {
+    color: rgb(33, 150, 243);
+    border-radius: 10px;
+    background: white;
+        
+}
+
+.bg-portfolio{
+    --tw-bg-opacity: 1;
+    background: linear-gradient(rgb(31 41 55 / var(--tw-bg-opacity)), #434344);   
+}
+
+.picture {
+    transition: transform .2s;
+
+}
+
+.picture:hover {
+    transform: scale(0.8);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
