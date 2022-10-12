@@ -1,8 +1,11 @@
 {
     "private": true,
+    "homepage": "https://NanaSukarna16.github.io/myweb",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
@@ -13,6 +16,7 @@
         "@vitejs/plugin-react": "^2.0.0",
         "autoprefixer": "^10.4.2",
         "axios": "^0.27",
+        "gh-pages": "^4.0.0",
         "laravel-vite-plugin": "^0.6.0",
         "lodash": "^4.17.19",
         "postcss": "^8.4.6",
