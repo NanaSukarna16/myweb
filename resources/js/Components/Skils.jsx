@@ -1,4 +1,4 @@
-import { FaReact, FaLaravel } from "react-icons/fa";
+import { FaReact, FaLaravel, FaVuejs } from "react-icons/fa";
 import {
     SiPhp,
     SiJavascript,
@@ -44,6 +44,9 @@ export default function Skils() {
                     </div>
                     <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
                         <SiReact className="text-5xl text-gray-500" />
+                    </div>
+                    <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8">
+                        <FaVuejs className="text-5xl text-gray-500" />
                     </div>
                 </div>
             </div>
